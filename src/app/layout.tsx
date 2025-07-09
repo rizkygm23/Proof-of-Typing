@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "TYPE×PROOF - ZK Typing Challenge",
   description: "Zero-Knowledge Typing Challenge - Type fast, prove faster!",
+  icons: {
+    icon: "/favicon.svg",
+  },
 }
 
 export default function RootLayout({
